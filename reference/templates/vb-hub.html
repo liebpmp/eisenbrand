@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KDL54H2S');</script>
+<!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Villa Bella München | Plastische & Ästhetische Chirurgie</title>
+  <meta name="description" content="Villa Bella München – Ihre Spezialisten für plastische und ästhetische Chirurgie. Bruststraffung, Brustverkleinerung, Facelift & Gynäkomastie.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --gold: #C9A96E;
+      --gold-dark: #B8944F;
+      --gold-light: #F5EFE0;
+      --gold-ultralight: #FBF8F3;
+      --text-primary: #1A1A1A;
+      --text-secondary: #4A4A4A;
+      --text-light: #6B6B6B;
+      --white: #FFFFFF;
+      --bg-dark: #1C1C1C;
+      --font-serif: 'DM Sans', 'Inter', system-ui, sans-serif;
+      --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+      --radius-sm: 6px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: var(--font-sans);
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+    }
+
+    /* HEADER */
+    .site-header {
+      position: fixed; top: 0; left: 0; right: 0;
+      height: 72px;
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      z-index: 1000;
+      display: flex; align-items: center;
+      box-shadow: 0 1px 12px rgba(0,0,0,0.06);
+    }
+    .header-inner {
+      max-width: 1140px; margin: 0 auto; padding: 0 24px;
+      width: 100%; display: flex; align-items: center; justify-content: center;
+    }
+    .header-logo img { height: 36px; width: auto; }
+
+    /* HERO */
+    .hero {
+      padding: 140px 24px 60px;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      font-size: 13px; font-weight: 600;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+    .gold-line {
+      width: 60px; height: 3px;
+      background: var(--gold);
+      margin: 0 auto 24px;
+    }
+    .hero h1 {
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 1.2;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+    }
+    .hero h1 em {
+      font-style: normal;
+      color: var(--gold);
+    }
+    .hero-sub {
+      font-size: 19px;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto 12px;
+      line-height: 1.6;
+    }
+
+    /* TREATMENTS */
+    .treatments {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px 24px 80px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .treatment-card {
+      background: var(--white);
+      border: 1px solid #E8E4DE;
+      border-radius: var(--radius-lg);
+      padding: 36px 32px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .treatment-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 8px 32px rgba(201,169,110,0.15);
+      transform: translateY(-4px);
+    }
+    .treatment-card::after {
+      content: '→';
+      position: absolute;
+      top: 32px; right: 32px;
+      font-size: 22px;
+      color: var(--gold);
+      opacity: 0;
+      transform: translateX(-8px);
+      transition: all 0.3s ease;
+    }
+    .treatment-card:hover::after {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .card-icon {
+      width: 48px; height: 48px;
+      background: var(--gold-ultralight);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    .treatment-card h2 {
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 24px;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .treatment-card p {
+      font-size: 15px;
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+    .card-tag {
+      display: inline-block;
+      margin-top: 16px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* TRUST BAR */
+    .trust-bar {
+      text-align: center;
+      padding: 40px 24px 60px;
+      border-top: 1px solid #F0ECE4;
+    }
+    .trust-bar p {
+      font-size: 14px;
+      color: var(--text-light);
+      max-width: 500px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+    .trust-bar strong {
+      color: var(--text-secondary);
+    }
+
+    /* FOOTER */
+    .footer {
+      background: var(--bg-dark);
+      padding: 40px 24px;
+      text-align: center;
+    }
+    .footer-logo img {
+      height: 28px;
+      margin-bottom: 16px;
+      filter: brightness(0) invert(1);
+    }
+    .footer p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.5);
+    }
+    .footer a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 640px) {
+      .hero { padding: 110px 20px 40px; }
+      .hero h1 { font-size: 30px; }
+      .hero-sub { font-size: 17px; }
+      .treatments {
+        grid-template-columns: 1fr;
+        padding: 10px 20px 60px;
+      }
+      .treatment-card { padding: 28px 24px; }
+      .treatment-card h2 { font-size: 21px; }
+      .treatment-card::after { opacity: 1; transform: translateX(0); top: 28px; right: 24px; }
+    }
+  </style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KDL54H2S"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="header-logo">
+        <img src="https://cdn.prod.website-files.com/6569a841ec1461c605d92a91/6569a841ec1461c605d92cfd_logo-092020.png" alt="Villa Bella München" width="140" height="36">
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <span class="hero-eyebrow">Plastische & Ästhetische Chirurgie</span>
+    <div class="gold-line"></div>
+    <h1>Ihr Spezialistenteam in <em>München</em></h1>
+    <p class="hero-sub">Welche Behandlung interessiert Sie?</p>
+  </section>
+
+  <div class="treatments">
+
+    <a href="/bruststraffung/" class="treatment-card">
+      <h2>Bruststraffung</h2>
+      <p>Natürliche Form & jugendliches Dekolleté — individuell auf Ihre Anatomie abgestimmt.</p>
+      <span class="card-tag">Mehr erfahren</span>
+    </a>
+
+    <a href="/brustverkleinerung/" class="treatment-card">
+      <h2>Brustverkleinerung</h2>
+      <p>Beschwerdefreiheit & harmonische Proportionen — für mehr Lebensqualität.</p>
+      <span class="card-tag">Mehr erfahren</span>
+    </a>
+
+    <a href="/operatives-facelift/" class="treatment-card">
+      <h2>Operatives Facelift</h2>
+      <p>SMAS Deep Plane Lifting — natürliche Verjüngung ohne maskenhaften Effekt.</p>
+      <span class="card-tag">Mehr erfahren</span>
+    </a>
+
+    <a href="/gynaekomastie/" class="treatment-card">
+      <h2>Gynäkomastie</h2>
+      <p>Männerbrust-Korrektur — für ein selbstbewusstes Körpergefühl.</p>
+      <span class="card-tag">Mehr erfahren</span>
+    </a>
+
+  </div>
+
+  <div class="trust-bar">
+    <p><strong>Villa Bella München</strong> — Seit über 15 Jahren Ihr Spezialistenteam für plastische und ästhetische Chirurgie in der Brienner Straße.</p>
+  </div>
+
+  <footer class="footer">
+    <a href="/">
+      <img src="https://cdn.prod.website-files.com/6569a841ec1461c605d92a91/6569a841ec1461c605d92cfd_logo-092020.png" alt="Villa Bella" class="footer-logo">
+    </a>
+    <p>© 2026 Villa Bella München · <a href="https://www.villabella-muenchen.de/impressum" target="_blank">Impressum</a> · <a href="https://www.villabella-muenchen.de/datenschutz" target="_blank">Datenschutz</a></p>
+  </footer>
+
+</body>
+</html>
